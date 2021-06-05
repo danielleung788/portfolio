@@ -134,6 +134,24 @@ h1, h2, h3, h4, h5, h6 {
   background: #D0B4E7;
 }
 
+#contact-social .new-socials-contact a {
+  font-size: 16px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+}
+
+#contact-social .new-socials-contact a:hover {
+  background: #57058B; /*D0B4E7 57058B 8100B4*/
+}
+
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
