@@ -776,7 +776,7 @@ section .container {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+/* .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 15px auto;
   list-style: none;
@@ -806,7 +806,7 @@ section .container {
 
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
-}
+} */
 
 .portfolio .portfolio-wrap {
   transition: 0.3s;
@@ -931,7 +931,8 @@ section .container {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(0, 0, 0, 0.8); */
+  background: rgba(0, 0, 0, 0.9);
   position: fixed;
   left: 0;
   right: 0;
@@ -945,6 +946,12 @@ section .container {
   padding-bottom: 40px;
 }
 
+.portfolio-details .new-container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 90%;
+}
+
 .portfolio-details .portfolio-title {
   font-size: 26px;
   font-weight: 700;
@@ -952,7 +959,7 @@ section .container {
 }
 
 .portfolio-details .portfolio-info {
-  padding-top: 45px;
+  padding-top: 0px;
 }
 
 .portfolio-details .portfolio-info h3 {
