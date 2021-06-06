@@ -1150,7 +1150,7 @@ section .container {
 }
 
 .contact .new-button button[type="submit"] {
-  background: #8100B4; /*#8100B4*/
+  background: #57058B; /*#8100B4 57058B*/
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1159,7 +1159,7 @@ section .container {
 }
 
 .contact .new-button button[type="submit"]:hover {
-  background: #57058B; /**/
+  background: #8100B4; /**/
 }
 
 @-webkit-keyframes animate-loading {
